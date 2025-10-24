@@ -3,17 +3,13 @@
 
     const sounds = {
         "up": new Audio("my_sounds/up.mp3"),
-        "down": new Audio("my_sounds/down.mp3"),
         "toleft": new Audio("my_sounds/toleft.mp3"),
-        "toright": new Audio("my_sounds/toright.mp3")
     };
 
     const images = {
        
 	    "up": "my_images/up.jpg",
-        "down": "my_images/down.jpg",
         "toleft": "my_images/toleft.jpg",
-        "toright": "my_images/toright.jpg",
         };
 
     let model = null, webcam = null;
